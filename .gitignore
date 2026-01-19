@@ -1,6 +1,9 @@
 .env
 __pycache__/
 *.pyc
-output/
+output/*
+!output/raw_articles.json
+!output/analysis_results.json
+!output/final_report.md
 .venv/
 venv/

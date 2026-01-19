@@ -1,0 +1,447 @@
+{
+  "run": {
+    "run_time_utc": "2026-01-19T04:45:25+00:00",
+    "query": "India politics",
+    "requested_n": 10,
+    "fetched_n": 10,
+    "days": 7,
+    "llm1_provider": "gemini",
+    "llm2_provider": "openrouter",
+    "gemini_model": "gemini-2.5-flash-lite",
+    "openrouter_model": "mistralai/mistral-7b-instruct",
+    "groq_fallback_enabled": true,
+    "groq_model": "llama-3.1-8b-instant"
+  },
+  "results": [
+    {
+      "article": {
+        "article_id": "d1833514c53812fe",
+        "title": "Comics shaped healthy marketing, but failed with Scott Adams",
+        "source": "The Times of India",
+        "published_at": "2026-01-18T03:54:08Z",
+        "url": "https://economictimes.indiatimes.com/magazines/panache/comics-shaped-healthy-marketing-but-failed-with-scott-adams/articleshow/126636802.cms"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Comics have historically shaped healthy food marketing, but Scott Adams' Dilbert strip ultimately failed due to his extremist political views and a racist rant.",
+          "sentiment": "negative",
+          "tone": "critical analysis",
+          "_meta": {
+            "provider": "gemini",
+            "model": "gemini-2.5-flash-lite"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Comics have historically influenced food marketing, with creators becoming cautious about endorsing junk food due to criticism. Scott Adams' Dilbert strip faced a decline due to his political views and a controversial statement.",
+          "sentiment": "negative",
+          "tone": "analytical",
+          "verdict": "accepted",
+          "notes": "The initial analysis accurately reflects the sentiment and gist of the article.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "Comics have historically shaped healthy food marketing, but Scott Adams' Dilbert strip ultimately failed due to his extremist political views and a racist rant.",
+        "sentiment": "negative",
+        "tone": "critical analysis",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "630103df51f1b0ea",
+        "title": "High drama at Punjab Congress meet as Channi challenges Jat Sikh dominance in party",
+        "source": "The Indian Express",
+        "published_at": "2026-01-18T01:35:53Z",
+        "url": "https://indianexpress.com/article/political-pulse/high-drama-at-punjab-congress-meet-as-channi-challenges-jat-sikh-dominance-in-party-10480124/"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Former Punjab Chief Minister Charanjit Singh Channi publicly criticized the Congress party for its alleged failure to recognize Dalit leaders in key appointments during a recent meeting. This internal dissent highlights a challenge to Jat Sikh dominance within the party.",
+          "sentiment": "negative",
+          "tone": "critical",
+          "_meta": {
+            "provider": "gemini",
+            "model": "gemini-2.5-flash-lite"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Former Punjab Chief Minister Charanjit Singh Channi publicly criticized the Congress party for the lack of representation of Dalit leaders in key appointments during a recent meeting, challenging Jat Sikh dominance within the party.",
+          "sentiment": "negative",
+          "tone": "critical, challenging",
+          "verdict": "accepted",
+          "notes": "The initial analysis is accurate.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "Former Punjab Chief Minister Charanjit Singh Channi publicly criticized the Congress party for its alleged failure to recognize Dalit leaders in key appointments during a recent meeting. This internal dissent highlights a challenge to Jat Sikh dominance within the party.",
+        "sentiment": "negative",
+        "tone": "critical",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "16b05f7b098a85b7",
+        "title": "When Kumbh Mela comes to God's Own Country in poll season",
+        "source": "The Times of India",
+        "published_at": "2026-01-18T00:30:00Z",
+        "url": "https://economictimes.indiatimes.com/news/elections/assembly-elections/kerala/when-kumbh-mela-comes-to-gods-own-country-in-poll-season/articleshow/126625627.cms"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "A large religious gathering planned in Kerala, dubbed 'Kerala's Kumbh Mela', is facing challenges with a stop order on a temporary bridge, but the controversy has generated significant publicity and local support.",
+          "sentiment": "neutral",
+          "tone": "balanced",
+          "_meta": {
+            "provider": "gemini",
+            "model": "gemini-2.5-flash-lite"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "A religious gathering in Tirunavaya, Kerala, faces challenges due to a stop order on a temporary bridge, but the controversy has generated significant free publicity and local support from various communities.",
+          "sentiment": "neutral",
+          "tone": "informative",
+          "verdict": "accepted",
+          "notes": "The initial analysis accurately reflects the sentiment and tone of the article.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "A large religious gathering planned in Kerala, dubbed 'Kerala's Kumbh Mela', is facing challenges with a stop order on a temporary bridge, but the controversy has generated significant publicity and local support.",
+        "sentiment": "neutral",
+        "tone": "balanced",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "bd8ff5b207055654",
+        "title": "From surge in patriotism to fewer US trips - Trump's impact on Canada",
+        "source": "BBC News",
+        "published_at": "2026-01-18T00:07:52Z",
+        "url": "https://www.bbc.com/news/articles/crmlvym2e3eo"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Donald Trump's second term has significantly impacted Canada, influencing its politics, economy, and the travel habits of its citizens.",
+          "sentiment": "neutral",
+          "tone": "analytical",
+          "_meta": {
+            "provider": "gemini",
+            "model": "gemini-2.5-flash-lite"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Donald Trump's second term has had a profound impact on Canada, affecting its politics, economy, and travel habits, as well as shopping patterns.",
+          "sentiment": "negative",
+          "tone": "informative",
+          "verdict": "corrected",
+          "notes": "The analysis was neutral, but the article's sentiment is negative due to the focus on global shifts and their potential negative effects on Canada.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "Donald Trump's second term has had a profound impact on Canada, affecting its politics, economy, and travel habits, as well as shopping patterns.",
+        "sentiment": "negative",
+        "tone": "informative",
+        "status": "validated_with_corrections"
+      }
+    },
+    {
+      "article": {
+        "article_id": "7edc9ed8efc01f62",
+        "title": "Infiltration biggest challenge, refugees need not worry: Modi",
+        "source": "Statetimes.in",
+        "published_at": "2026-01-17T19:06:40Z",
+        "url": "https://statetimes.in/infiltration-biggest-challenge-refugees-need-not-worry-modi/"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Prime Minister Narendra Modi has identified infiltration as the primary challenge facing the West Bengal government, asserting that refugees should not be concerned. He used this issue to criticize the TMC government, claiming illegal migration has significantly altered the state's demographics.",
+          "sentiment": "negative",
+          "tone": "critical",
+          "_meta": {
+            "provider": "gemini",
+            "model": "gemini-2.5-flash-lite"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Prime Minister Narendra Modi criticized the TMC government for infiltration and alleged large-scale illegal migration affecting West Bengal's demographics.",
+          "sentiment": "negative",
+          "tone": "critical",
+          "verdict": "accepted",
+          "notes": "The analysis is consistent with the article's content.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "Prime Minister Narendra Modi has identified infiltration as the primary challenge facing the West Bengal government, asserting that refugees should not be concerned. He used this issue to criticize the TMC government, claiming illegal migration has significantly altered the state's demographics.",
+        "sentiment": "negative",
+        "tone": "critical",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "781610e41d30d8b7",
+        "title": "Link sports with education for complete youth development: LG",
+        "source": "Statetimes.in",
+        "published_at": "2026-01-17T18:53:25Z",
+        "url": "https://statetimes.in/link-sports-with-education-for-complete-youth-development-lg/"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Lieutenant Governor Manoj Sinha inaugurated a two-day National Level Sports Conference in Jammu, emphasizing the importance of integrating sports with education for holistic youth development.",
+          "sentiment": "positive",
+          "tone": "Informative, encouraging",
+          "_meta": {
+            "provider": "gemini",
+            "model": "gemini-2.5-flash-lite"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Lieutenant Governor Manoj Sinha inaugurated a two-day 'National Level Sports Conference - SRIJAN' in Jammu, emphasizing the importance of integrating sports with education for holistic youth development.",
+          "sentiment": "positive",
+          "tone": "Informative, formal",
+          "verdict": "accepted",
+          "notes": "The initial analysis is accurate.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "Lieutenant Governor Manoj Sinha inaugurated a two-day National Level Sports Conference in Jammu, emphasizing the importance of integrating sports with education for holistic youth development.",
+        "sentiment": "positive",
+        "tone": "Informative, encouraging",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "1a3f8c4c535c9719",
+        "title": "PM Modi takes on TMC with infiltration warning and Matua outreach",
+        "source": "The Times of India",
+        "published_at": "2026-01-17T18:23:42Z",
+        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/pm-modi-takes-on-tmc-with-infiltration-warning-and-matua-outreach/articleshow/126624729.cms"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "PM Modi addresses concerns about infiltration in Bengal and reassures the Matua community.",
+          "sentiment": "neutral",
+          "tone": "balanced",
+          "_meta": {
+            "provider": "groq",
+            "model": "llama-3.1-8b-instant"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "PM Modi warns about infiltration in Bengal and reassures Matua community of their rights as refugees",
+          "sentiment": "positive",
+          "tone": "assertive",
+          "verdict": "accepted",
+          "notes": "The initial analysis is generally accurate, but the tone could be more accurately described as assertive.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "PM Modi addresses concerns about infiltration in Bengal and reassures the Matua community.",
+        "sentiment": "neutral",
+        "tone": "balanced",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "bfbe26fbbe28e981",
+        "title": "Infiltration biggest challenge for Bengal, refugees need not worry: PM at Malda rally",
+        "source": "Statetimes.in",
+        "published_at": "2026-01-17T17:33:24Z",
+        "url": "https://statetimes.in/infiltration-biggest-challenge-for-bengal-refugees-need-not-worry-pm-at-malda-rally/"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Prime Minister Narendra Modi accused the TMC government of allowing large-scale illegal migration in West Bengal, affecting the state's demographic balance.",
+          "sentiment": "negative",
+          "tone": "critical",
+          "_meta": {
+            "provider": "groq",
+            "model": "llama-3.1-8b-instant"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Prime Minister Narendra Modi accused the TMC government of allowing large-scale illegal migration in West Bengal, affecting the state's demographic balance, during a rally in Malda ahead of the Assembly polls.",
+          "sentiment": "negative",
+          "tone": "critical",
+          "verdict": "accepted",
+          "notes": "The initial analysis is correct.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "Prime Minister Narendra Modi accused the TMC government of allowing large-scale illegal migration in West Bengal, affecting the state's demographic balance.",
+        "sentiment": "negative",
+        "tone": "critical",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "99b31c8ea1b4ac34",
+        "title": "Nepal’s Republic of Amnesia",
+        "source": "The New York Review of Books",
+        "published_at": "2026-01-17T17:13:05Z",
+        "url": "http://www.nybooks.com/online/2026/01/17/nepals-republic-of-amnesia/"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "Nepal's new interim government has recognized protests led by Gen-Z activists as the third 'people's movement' in the country's history.",
+          "sentiment": "neutral",
+          "tone": "analytical",
+          "_meta": {
+            "provider": "groq",
+            "model": "llama-3.1-8b-instant"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "The article discusses the recognition of Gen-Z-led protests as the third 'people's movement' in Nepal's history, four months after they overthrew the government, and mentions the calmness in Kathmandu and ongoing renovations.",
+          "sentiment": "neutral",
+          "tone": "informative",
+          "verdict": "accepted",
+          "notes": "The initial analysis accurately reflects the sentiment and tone of the article.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "Nepal's new interim government has recognized protests led by Gen-Z activists as the third 'people's movement' in the country's history.",
+        "sentiment": "neutral",
+        "tone": "analytical",
+        "status": "validated_pass"
+      }
+    },
+    {
+      "article": {
+        "article_id": "ce705e5b3ef023e3",
+        "title": "Literature deepens India–Russia friendship at New Delhi World Book Fair 2026",
+        "source": "The Times of India",
+        "published_at": "2026-01-17T17:11:58Z",
+        "url": "https://economictimes.indiatimes.com/news/india/literature-deepens-indiarussia-friendship-at-new-delhi-world-book-fair-2026/articleshow/126622244.cms"
+      },
+      "llm1": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "The New Delhi World Book Fair 2026 featured a Russian pavilion, deepening India-Russia friendship.",
+          "sentiment": "positive",
+          "tone": "explanatory",
+          "_meta": {
+            "provider": "groq",
+            "model": "llama-3.1-8b-instant"
+          }
+        }
+      },
+      "llm2": {
+        "status": "ok",
+        "error": null,
+        "result": {
+          "gist": "The New Delhi World Book Fair 2026 showcased a Russian pavilion, serving as a significant platform for cultural exchange and intellectual dialogue between India and Russia.",
+          "sentiment": "positive",
+          "tone": "descriptive",
+          "verdict": "accepted",
+          "notes": "The initial analysis accurately reflects the sentiment and tone of the article.",
+          "_meta": {
+            "provider": "openrouter",
+            "model": "mistralai/mistral-7b-instruct"
+          }
+        }
+      },
+      "final": {
+        "gist": "The New Delhi World Book Fair 2026 featured a Russian pavilion, deepening India-Russia friendship.",
+        "sentiment": "positive",
+        "tone": "explanatory",
+        "status": "validated_pass"
+      }
+    }
+  ]
+}
