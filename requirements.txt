@@ -1,0 +1,5 @@
+python-dotenv
+requests
+google-genai
+groq
+pytest
